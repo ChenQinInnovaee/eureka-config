@@ -8,4 +8,4 @@ spring:
   zipkin:
     base-url: http://eureka-zipkin
   application:
-    name: eureka-consumer  sleuth:    sampler:      percentage: 1.0 
+    name: eureka-consumer  sleuth:    sampler:      percentage: 0.9 
