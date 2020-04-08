@@ -1,0 +1,11 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 8764
+spring:
+  zipkin:
+    base-url: http://eureka-zipkin
+  application:
+    name: eureka-consumer  sleuth:    sampler:      percentage: 1.0 
